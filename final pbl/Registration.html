@@ -1,0 +1,159 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>
+
+.button {
+    background-color: #4CAF50;
+    color: white; 
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9; 
+    
+
+  }
+  #mname{
+    position: relative;
+    margin-right: 20px;
+  }
+
+
+  input[type=text], input[type=password], textarea {  
+  width: 20%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1; 
+  }
+  </style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<script src="https://cdn.tailwindcss.com"></script>
+</head>  
+<body>  
+
+    <header class="text-white-700 bg-blue-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+                <span  class="ml-3 text-xl"  onclick="location.href = 'Home.html'" >AirSomaiya</span>
+
+                
+            </a>
+            <nav
+                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-white-700	flex flex-wrap items-center text-base justify-center">
+ 
+                <a href="Book.html" class="mr-5 hover:text-white">Book</a>
+                <a href="Cancel.html" class="mr-5 hover:text-white">Cancel</a>
+                <a href="Enquiry.html" class="mr-5 hover:text-white">Enquiry</a>
+                
+            </nav>
+            <button
+                class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+<form>  
+  <div class="container"> 
+    
+	</nav> 
+  <center>  <h1><b>Registration Form</b></h1> </center>  
+  <hr>  <br>
+
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="firstname">
+  <label for="mname" id="mname">Middle name:</label>
+  <input type="text"  name="mname" placeholder="middlename">
+  <label for="lname" id="lnamelabel">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="lastname"><br><br>   
+<div>  
+<label>    
+
+    <label for="birthday">Birthdate:</label>
+<input type="date" id="birthday" name="birthday" ><br><br>
+    
+    
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" ṣ> Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  <br>
+<label>Mobile No:</label> 
+    <input type="text" id="phone" name="phone" placeholder="mobile no." size="10" required>  <br> <br>
+
+    <label for="Email">Email:</label>
+    <input type="text" placeholder="Enter Email" name="email" required> <br> <br>
+
+
+
+
+  
+    <label for="psw"><b>Password :</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>   <br> <br>
+  
+    <label for="psw-repeat"><b>Re-type Password :</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required><br><br>
+    
+    <button class="button">Register</button>   
+
+   
+</form>  
+
+
+<footer class="text-gray-600 body-font">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+           
+            <span class="ml-3 text-xl">AirSomaiya</span>
+        </a>
+        <p class="text-sm text-black-700 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+            2022 Somaiya —
+            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+                target="_blank">Miniproject</a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-5 h-5" viewBox="0 0 24 24">
+                    <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                    </path>
+                </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none"
+                        d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                    </path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+            </a>
+        </span>
+    </div>
+</footer>
+</body>  
+</html>  
